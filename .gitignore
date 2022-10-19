@@ -3,5 +3,5 @@
 ################################################################################
 
 /.vs/RegexRenamer
-/RegexRenamer/bin/Debug/app.publish
-/RegexRenamer/obj/x86/Debug
+/RegexRenamer/bin/
+/RegexRenamer/obj/

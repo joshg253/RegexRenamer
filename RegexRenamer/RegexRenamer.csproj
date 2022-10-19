@@ -13,15 +13,14 @@
     <TargetZone>LocalIntranet</TargetZone>
     <GenerateManifests>true</GenerateManifests>
     <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>
-    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>RegexRenamer_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
     <ManifestCertificateThumbprint>87F57C2FB9CF494BEEC438F6D75FEC834074C211</ManifestCertificateThumbprint>
     <ManifestKeyFile>RegexRenamer_TemporaryKey.pfx</ManifestKeyFile>
     <SignManifests>true</SignManifests>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <ApplicationIcon>icon.ico</ApplicationIcon>
     <StartupObject>RegexRenamer.Program</StartupObject>
-    <ManifestTimestampUrl>http://timestamp.verisign.com/scripts/timstamp.dll</ManifestTimestampUrl>
+    <ManifestTimestampUrl>http://timestamp.digicert.com</ManifestTimestampUrl>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <OldToolsVersion>3.5</OldToolsVersion>
