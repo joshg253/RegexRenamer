@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/RegexRenamer
+/RegexRenamer/bin/Debug/app.publish
+/RegexRenamer/obj/x86/Debug
