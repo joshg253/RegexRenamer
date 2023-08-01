@@ -2,6 +2,7 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/RegexRenamer
-/RegexRenamer/bin/
-/RegexRenamer/obj/
+/.vs/
+/bin/
+/obj/
+*.pfx

@@ -34,7 +34,7 @@ namespace RegexRenamer
   {
     #region Consts
 
-    private       int MAX_FILES   = 10000;   // file limit for filelist (was a const)
+    private       int MAX_FILES   = 100000;   // file limit for filelist (was a const)
     private const int MAX_HISTORY = 20;      // number of regex history entries to keep
 
     #endregion
