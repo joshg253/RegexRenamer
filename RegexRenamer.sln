@@ -1,20 +1,25 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.33927.210
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexRenamer", "RegexRenamer\RegexRenamer.csproj", "{29EF689F-82FE-4D91-A671-AAABBB4B7F9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{29EF689F-82FE-4D91-A671-AAABBB4B7F9A}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{29EF689F-82FE-4D91-A671-AAABBB4B7F9A}.Debug|Any CPU.Build.0 = Debug|x86
-		{29EF689F-82FE-4D91-A671-AAABBB4B7F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{29EF689F-82FE-4D91-A671-AAABBB4B7F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29EF689F-82FE-4D91-A671-AAABBB4B7F9A}.Debug|x64.ActiveCfg = Debug|x64
+		{29EF689F-82FE-4D91-A671-AAABBB4B7F9A}.Debug|x64.Build.0 = Debug|x64
+		{29EF689F-82FE-4D91-A671-AAABBB4B7F9A}.Release|x64.ActiveCfg = Release|x64
+		{29EF689F-82FE-4D91-A671-AAABBB4B7F9A}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2C9D894-A4D6-45F3-BC98-0F111AD2B67F}
 	EndGlobalSection
 EndGlobal

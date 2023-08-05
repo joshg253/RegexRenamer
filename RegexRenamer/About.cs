@@ -1,6 +1,6 @@
 /* =============================================================================
- * RegexRenamer                                     Copyright (c) 2011 Xiperware
- * http://regexrenamer.sourceforge.net/                      xiperware@gmail.com
+ * RegexRenamer                                               Copyright (c) 2023
+ * https://github.com/joshg253/RegexRenamer
  * 
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU General Public License v2, as published by the Free
@@ -46,18 +46,7 @@ namespace RegexRenamer
     {
       try
       {
-        Process.Start( "http://regexrenamer.sourceforge.net/" );
-      }
-      catch( Exception e )
-      {
-        MessageBox.Show( e.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error );
-      }
-    }
-    private void linkEmail_LinkClicked( object sender, LinkLabelLinkClickedEventArgs ea )
-    {
-      try
-      {
-        Process.Start( "mailto:xiperware@gmail.com" );
+        Process.Start("https://github.com/joshg253/RegexRenamer");
       }
       catch( Exception e )
       {

@@ -1,6 +1,6 @@
 /* =============================================================================
- * RegexRenamer                                     Copyright (c) 2011 Xiperware
- * http://regexrenamer.sourceforge.net/                      xiperware@gmail.com
+ * RegexRenamer                                               Copyright (c) 2023
+ * https://github.com/joshg253/RegexRenamer
  * 
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU General Public License v2, as published by the Free
@@ -52,13 +52,13 @@ namespace RegexRenamer
       }
       catch( System.Security.SecurityException )
       {
-        MessageBox.Show( "You are trying to run RegexRenamer from the Intranet Zone (ie, a network share).\n"
-                       + "Due to .NET code access security, you need to either copy RegexRenamer locally\n"
-                       + "and run it from your computer, or grant it permission to run from the Intranet Zone.\n"
-                       + "\n"
-                       + "To grant permission, run the batch file 'GrantIntranetPermission.bat' found in the\n"
-                       + "installation directory, or read it's contents for manual instructions.",
-                         "Permission Denied", MessageBoxButtons.OK, MessageBoxIcon.Error );
+        MessageBox.Show(
+              "You are trying to run RegexRenamer from the Intranet Zone (ie, a network share).\n"
+            + "Due to .NET code access security, you need to either copy RegexRenamer locally\n"
+            + "and run it from your computer, or grant it permission to run from the Intranet Zone.\n\n"
+            + "To grant permission, run the batch file 'GrantIntranetPermission.bat' found in the\n"
+            + "installation directory, or read it's contents for manual instructions.",
+            "Permission Denied", MessageBoxButtons.OK, MessageBoxIcon.Error );
       }
 #if !DEBUG
       catch( Exception ex )
@@ -78,12 +78,14 @@ namespace RegexRenamer
 
     static void UnhandledException( Exception ex )
     {
-      MessageBox.Show( "Congratulations, you've made RegexRenamer crash! :)\n\nCould you please press Ctrl+C "
-                     + "to copy this information and paste it in an email to xiperware@gmail.com\nalong with "
-                     + "what you were doing at the time. This will help the developer to identify and fix "
-                     + "the problem.\n\n\n" + ex, "Unhandled exception (RegexRenamer v" + Application.ProductVersion + ")",
-                       MessageBoxButtons.OK, MessageBoxIcon.Error );
+      MessageBox.Show(
+          "Congratulations, you've made RegexRenamer crash! :)\n\n"
+        + "Please press Ctrl+C to copy this information and paste it in a new issue here:\n" 
+        + "https://github.com/joshg253/RegexRenamer/issues/new \n"
+        + "Also include what you were doing at the time, anything that may help\n"
+        + "the developer reproduce & fix the problem.\n\n\n"
+        + ex, "Unhandled exception (RegexRenamer v" + Application.ProductVersion + ")",
+          MessageBoxButtons.OK, MessageBoxIcon.Error );
     }
-
   }
 }

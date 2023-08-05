@@ -1,6 +1,6 @@
 ﻿/* =============================================================================
- * RegexRenamer                                     Copyright (c) 2011 Xiperware
- * http://regexrenamer.sourceforge.net/                      xiperware@gmail.com
+ * RegexRenamer                                               Copyright (c) 2023
+ * https://github.com/joshg253/RegexRenamer
  * 
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU General Public License v2, as published by the Free
@@ -25,12 +25,11 @@ using System.Security;
 [assembly: AssemblyTitle( "RegexRenamer" )]
 [assembly: AssemblyDescription( "RegexRenamer is a powerful user-friendly graphical tool used to batch rename files using regular expressions." )]
 [assembly: AssemblyConfiguration( "" )]
-[assembly: AssemblyCompany( "Xiperware" )]
+[assembly: AssemblyCompany( "" )]
 [assembly: AssemblyProduct( "" )]
-[assembly: AssemblyCopyright( "Copyright © 2011 Xiperware" )]
+[assembly: AssemblyCopyright( "Copyright © 2023" )]
 [assembly: AssemblyTrademark( "" )]
 [assembly: AssemblyCulture( "" )]
-[assembly: AllowPartiallyTrustedCallers]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
 // to COM components.  If you need to access a type in this assembly from 
@@ -47,5 +46,5 @@ using System.Security;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion( "1.3.1.0" )]
-[assembly: AssemblyFileVersion( "1.3.1.0" )]
+[assembly: AssemblyVersion( "1.4.0.0" )]
+[assembly: AssemblyFileVersion( "1.4.0.0" )]

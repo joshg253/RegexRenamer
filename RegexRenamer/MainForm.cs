@@ -1,6 +1,6 @@
 /* =============================================================================
- * RegexRenamer                                     Copyright (c) 2011 Xiperware
- * http://regexrenamer.sourceforge.net/                      xiperware@gmail.com
+ * RegexRenamer                                               Copyright (c) 2023
+ * https://github.com/joshg253/RegexRenamer
  * 
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU General Public License v2, as published by the Free
@@ -2784,22 +2784,11 @@ namespace RegexRenamer
     {
       Help.ShowHelp( this, Path.Combine( Application.StartupPath, "Regex Quick Reference.chm" ), "html/regex_quickref2.html" );
     }
-    private void itmHelpEmailAuthor_Click( object sender, EventArgs e )
-    {
-      try
-      {
-        Process.Start( "mailto:xiperware@gmail.com" );
-      }
-      catch( Exception ex )
-      {
-        MessageBox.Show( ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error );
-      }
-    }
     private void itmHelpReportBug_Click( object sender, EventArgs e )
     {
       try
       {
-        Process.Start( "http://sourceforge.net/tracker/?func=add&group_id=177064&atid=879743" );
+        Process.Start("https://github.com/joshg253/RegexRenamer/issues/new/choose");
       }
       catch( Exception ex )
       {
@@ -2810,7 +2799,7 @@ namespace RegexRenamer
     {
       try
       {
-        Process.Start( "http://regexrenamer.sourceforge.net/" );
+        Process.Start("https://github.com/joshg253/RegexRenamer");
       }
       catch( Exception ex )
       {
